@@ -1,0 +1,41 @@
+.button {
+  width: 70px;
+  height: 70px;
+  font-size: 35px;
+  color: #fff;
+  border-radius: 50%;
+  border: 1px solid lightgrey;
+  background-color: #000;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.green {
+  background-color: green;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.coral {
+  background-color: coral;
+}
+
+.red {
+  background-color: red;
+}
+
+.lightblue {
+  background-color: lightskyblue;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.darkblue {
+  background-color: darkblue;
+}

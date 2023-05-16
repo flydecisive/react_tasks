@@ -1,0 +1,44 @@
+.temperature {
+  width: 300px;
+  height: 300px;
+  border: 1px solid lightgrey;
+  border-radius: 50%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #000;
+}
+
+.temperature__value {
+  font-size: 100px;
+  color: #fff;
+}
+
+.green {
+  background-color: green;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.coral {
+  background-color: coral;
+}
+
+.red {
+  background-color: red;
+}
+
+.lightblue {
+  background-color: lightskyblue;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.darkblue {
+  background-color: darkblue;
+}

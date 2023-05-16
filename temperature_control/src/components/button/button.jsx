@@ -1,6 +1,12 @@
-function Button({ text, handleValue }) {
+import './button.css';
+
+function Button({ text, handleValue, theme }) {
   return (
-    <button type="submit" onClick={(e) => handleValue(e)}>
+    <button
+      className={`button ${theme}`}
+      type="submit"
+      onClick={(e) => handleValue(e)}
+    >
       {text}
     </button>
   );
