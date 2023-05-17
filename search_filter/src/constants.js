@@ -1,0 +1,81 @@
+export const USERS = [
+  {
+    id: 1,
+    name: 'Максим',
+    surname: 'Мухин',
+    age: 27,
+    country: 'Россия',
+  },
+  {
+    id: 2,
+    name: 'Татьяна',
+    surname: 'Столец',
+    age: 26,
+    country: 'Россия',
+  },
+  {
+    id: 3,
+    name: 'Оксана',
+    surname: 'Еремина',
+    age: 26,
+    country: 'Россия',
+  },
+  {
+    id: 4,
+    name: 'Александр',
+    surname: 'Дьяков',
+    age: 28,
+    country: 'Россия',
+  },
+  {
+    id: 5,
+    name: 'Дмитрий',
+    surname: 'Мухин',
+    age: 51,
+    country: 'Россия',
+  },
+  {
+    id: 6,
+    name: 'Даниил',
+    surname: 'Столец',
+    age: 15,
+    country: 'Россия',
+  },
+  {
+    id: 7,
+    name: 'Иван',
+    surname: 'Мухин',
+    age: 15,
+    country: 'Россия',
+  },
+  {
+    id: 8,
+    name: 'Боб',
+    surname: 'Дилан',
+    age: 47,
+    country: 'Германия',
+  },
+  {
+    id: 9,
+    name: 'Курт',
+    surname: 'Кобейн',
+    age: 27,
+    country: 'Америка',
+  },
+  {
+    id: 10,
+    name: 'Екатерина',
+    surname: 'Кузнецова',
+    age: 25,
+    country: 'Россия',
+  },
+  {
+    id: 11,
+    name: 'Галина',
+    surname: 'Давыдова',
+    age: 48,
+    country: 'Россия',
+  },
+];
+
+export const SELECTORS = ['id', 'имени', 'фамилии', 'возрасту', 'городу'];
