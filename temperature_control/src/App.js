@@ -1,10 +1,10 @@
 import { useState } from 'react';
 import './App.css';
 import Temperature from './components/temperature/temperature';
-import ButtonWrapper from './components/button-wrapper/button-wrapper';
+import Wrapper from './components/button-wrapper/wrapper';
 
 function App() {
-  const [value, setValue] = useState();
+  const [value, setValue] = useState(0);
 
   const changeValue = (value) => {
     setValue(value);
@@ -30,7 +30,7 @@ function App() {
   return (
     <div className="App">
       <Temperature value={value} theme={theme} />
-      <ButtonWrapper changeValue={changeValue} theme={theme} />
+      <Wrapper changeValue={changeValue} theme={theme} />
     </div>
   );
 }
