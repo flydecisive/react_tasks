@@ -1,5 +1,5 @@
-.button__wrapper {
+.wrapper {
   display: flex;
-  gap: 100px;
+  gap: 20px;
   align-items: center;
 }
